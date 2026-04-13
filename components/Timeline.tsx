@@ -2,11 +2,12 @@
 import { motion } from "framer-motion";
 
 const EVENTS = [
-  { yr:"2022", gold:true,  title:"Started B.Tech – AI & DS",       desc:"Enrolled at Poornima. Began C++, Python, and the fundamentals of AI and data science.", n:"01" },
+  { yr:"2023", gold:true,  title:"Started B.Tech – AI & DS",       desc:"Enrolled at Poornima. Began C++, Python, and the fundamentals of AI and data science.",   n:"01" },
   { yr:"2023", gold:false, title:"Entered Full-Stack Dev",          desc:"Built real apps with React, Node.js & Express. Moved from theory to production code.",   n:"02" },
-  { yr:"2023", gold:true,  title:"IoT & Space ML",                  desc:"Smart Defense Glove and Space Debris Detection ML model using satellite imagery.",        n:"03" },
-  { yr:"2023", gold:true,  title:"Blinkit Power BI Dashboard",      desc:"Delivered a business analytics dashboard surfacing customer and delivery trends.",       n:"04" },
-  { yr:"2024", gold:false, title:"Visita & Gen AI Projects",        desc:"Built the Visita hotel analytics platform and a Gen AI interview simulator.",            n:"05" },  
+  { yr:"2024", gold:true,  title:"IoT (Defense Glove) ",            desc:"Smart Defense Glove and Space Debris Detection ML model using satellite imagery.",       n:"03" },
+  { yr:"2024", gold:true,  title:"Blinkit Power BI Dashboard",      desc:"Delivered a business analytics dashboard surfacing customer and delivery trends.",       n:"04" }, 
+  { yr:"2025", gold:false, title:"Space Debris detection",          desc:"Detecting and tracking space debris to prevent satellite and collision hazards.",        n:"05" }, 
+  { yr:"2025", gold:false, title:"Visita & Gen AI Projects",        desc:"Built the Visita hotel analytics platform and a Gen AI interview simulator.",            n:"06" } 
 ];
 
 export default function Timeline() {
