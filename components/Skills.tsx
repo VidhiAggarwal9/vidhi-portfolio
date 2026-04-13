@@ -5,9 +5,10 @@ const CATS = [
   { name:"Languages",  items:["C++","Python","JavaScript"] },
   { name:"Frontend",   items:["React.js","Next.js","HTML","CSS","Tailwind"] },
   { name:"Backend",    items:["Node.js","Express.js","REST APIs"] },
-  { name:"Data",       items:["Power BI","Matplotlib","Jupyter","Excel"] },
+  { name:"Data Visualization",       items:["Power BI","Matplotlib","Excel"] },
   { name:"Databases",  items:["MySQL","PostgreSQL","MongoDB"] },
-  { name:"AI & Tools", items:["Claude","ChatGPT","Cursor","n8n","Postman","GitHub"] },
+  { name:"AI & Tools", items:["Claude","ChatGPT","Cursor","lovable","n8n","Postman"] },
+  { name:"Tools" , items:["GitHub" , "Jupyter"]},
 ];
 
 export default function Skills() {
