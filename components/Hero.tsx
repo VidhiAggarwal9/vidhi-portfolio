@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const TICKERS = [
-  "Full-Stack Development","Data Analytics","Machine Learning",
-  "Generative AI","IoT Systems","Power BI","React · Node.js · Python",
+  "Full-Stack Development","Data Analytics",
+  "Generative AI","Power BI","React · Node.js · Python",
 ];
 
 function scrollTo(id: string) {
