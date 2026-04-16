@@ -59,26 +59,7 @@ export default function Hero() {
                        border: "none", cursor: "pointer" }}>
               View My Work →
             </button>
-            <a
-  href="/resume.pdf"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{
-    display: "inline-flex",
-    alignItems: "center",
-    gap: 8,
-    background: "#fff",
-    color: "#1c1917",
-    padding: "13px 26px",
-    borderRadius: 7,
-    fontSize: 13,
-    fontWeight: 600,
-    border: "1.5px solid #e5e7eb",
-    textDecoration: "none"
-  }}
->
-  View Resume
-</a>
+           
           </div>
 
           {/* Stats */}
