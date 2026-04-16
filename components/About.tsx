@@ -46,7 +46,7 @@ export default function About() {
           <div style={{background:"#fff",border:"1px solid #e5e7eb",borderRadius:12,padding:"14px 18px"}}>
             <div style={{fontSize:9,fontWeight:700,color:"#9ca3af",letterSpacing:2,textTransform:"uppercase",marginBottom:10}}>Focus Areas</div>
             <div style={{display:"flex",flexWrap:"wrap",gap:6}}>
-              {["Full-Stack Dev","Data Analytics","Machine Learning","AI Tools","IoT"].map(t=>(
+              {["Full-Stack Dev","Data Analytics","AI Tools"].map(t=>(
                 <span key={t} style={{fontSize:11,fontWeight:500,color:"#1d4ed8",background:"#eff6ff",border:"1px solid #bfdbfe",borderRadius:999,padding:"4px 12px"}}>{t}</span>
               ))}
             </div>
