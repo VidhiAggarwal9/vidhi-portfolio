@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const PROJECTS = [
   { icon:"📊", title:"Blinkit Analysis",         sub:"Power BI · Data Analytics",   desc:"Customer trend analysis and delivery performance dashboard for business optimization.", tags:["Power BI","Excel","DAX"],                  repo:"https://github.com/VidhiAggarwal9/Blinkit-Analysis-using-Power-bi" },
-  { icon:"🧠", title:"Gen AI Interview Coach",    sub:"Generative AI · NLP",         desc:"AI-powered simulator providing real-time personalized feedback for interview rounds.",   tags:["Gen AI","Python","LLM"],                   repo:"https://github.com/VidhiAggarwal9/gen-ai-interview-coach" },
-  { icon:"🤚", title:"IoT Smart Defense Glove",   sub:"IoT · Embedded Systems",      desc:"Wearable converting hand gestures into digital command signals for defense use.",        tags:["IoT","Sensors","Embedded C"],              repo:"https://github.com/VidhiAggarwal9/IOT-Smart-Glove" },
-  { icon:"🛰️", title:"Space Debris Detection",    sub:"ML · Computer Vision",        desc:"ML model using satellite imagery to classify and predict orbital space debris.",         tags:["ML","Python","Computer Vision"],           repo:"https://github.com/VidhiAggarwal9/Space-Debris-Detection" },
+  { icon:"🧠", title:"Gen AI Interview Coach",    sub:"Generative AI · Web-D",         desc:"AI-powered simulator providing real-time personalized feedback for interview rounds.",   tags:["Gen AI","Python"],                   repo:"https://github.com/VidhiAggarwal9/gen-ai-interview-coach" },
+  { icon:"🤚", title:"IoT Smart Defense Glove",   sub:"Web-D · Embedded Systems",      desc:"Wearable converting hand gestures into digital command signals for defense use.",        tags:["IoT","Sensors","Embedded C" ],              repo:"https://github.com/VidhiAggarwal9/IOT-Smart-Glove" },
+  { icon:"🛰️", title:"Space Debris Detection",    sub:"Full Stack Web App",        desc:"ML model using satellite imagery to classify and predict orbital space debris.",         tags:["Python","HTML","CSS","JS",'MERN"],           repo:"https://github.com/VidhiAggarwal9/Space-Debris-Detection" },
 ];
 
 export default function Projects() {
