@@ -38,7 +38,7 @@ export default function FeaturedProject() {
               Upload messy hotel booking data — Visita cleans, processes, and visualises it into revenue dashboards, occupancy trends, and booking KPIs.
             </p>
             <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:30}}>
-              {["Node.js","React","Express","CSV/Excel","Data Pipelines"].map(t=>(
+              {["Node.js","React","Express","CSV/Excel"].map(t=>(
                 <span key={t} style={{fontSize:11,fontWeight:500,color:"#1d4ed8",background:"#eff6ff",border:"1px solid #bfdbfe",borderRadius:5,padding:"4px 10px"}}>{t}</span>
               ))}
             </div>
