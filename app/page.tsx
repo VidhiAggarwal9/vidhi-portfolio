@@ -7,12 +7,14 @@ import About          from "@/components/About";
 import Timeline       from "@/components/Timeline";
 import Contact        from "@/components/Contact";
 import Footer         from "@/components/Footer";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
     <main style={{ background: "#fafaf8" }}>
       <Navbar />
       <Hero />
+      <Experience />
       <FeaturedProject />
       <Projects />
       <Skills />
