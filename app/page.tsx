@@ -1,5 +1,6 @@
 import Navbar         from "@/components/Navbar";
 import Hero           from "@/components/Hero";
+import Experience     from "@/components/Experience";
 import FeaturedProject from "@/components/FeaturedProject";
 import Projects       from "@/components/Projects";
 import Skills         from "@/components/Skills";
@@ -13,6 +14,7 @@ export default function Home() {
     <main style={{ background: "#fafaf8" }}>
       <Navbar />
       <Hero />
+      <Experience/>
       <FeaturedProject />
       <Projects />
       <Skills />
